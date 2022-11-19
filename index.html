@@ -1,0 +1,429 @@
+<style>
+	/*вот так ставятся комментарии внутри style*/
+	.header {
+		background: grey;
+		height: 50px;
+		display: flex;
+	}
+
+	.charts-container {
+		width: 900px;
+		height: 1000px;
+		background: white;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 5px;
+	}
+	.header-center {
+		background: grey;
+		width: 900px;
+		height: 50px;
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		
+
+	}
+	.chart-sort {
+		height: 37px;
+		background: white;
+		display: flex;
+		padding-top: 13px;
+		border-radius: 5px;
+	}
+	.charts-up {
+		height: 70px;
+		background: seagreen;
+		margin-top: 10px;
+		display: flex;
+		background: linear-gradient(90deg, rgba(66,198,51,1) 20%, rgba(18,150,208,1) 53%, rgba(70,50,223,1) 91%);
+		border-radius: 5px;
+	}
+	.charts-new {
+		height: 70px;
+		margin-top: 10px;
+		background: linear-gradient(90deg, rgba(185,69,43,1) 26%, rgba(180,230,122,1) 54%, rgba(0,255,184,1) 95%);
+		border-radius: 5px;
+		display: flex;
+	}
+	.charts-down {
+		height: 70px;
+		margin-top: 10px;
+		background: linear-gradient(90deg, rgba(148,185,43,1) 26%, rgba(122,197,230,1) 54%, rgba(255,0,155,1) 95%);
+		display: flex;
+		border-radius: 5px;
+	}
+	.box-logo {
+		width: 150px;
+		background: grey;
+	}
+	.box-links {
+		width: 600px;
+		background: grey;
+		margin-left: 1px;
+		padding-top: 14px;
+
+	}
+	.box-buttons {
+		width: 149;
+		margin-left: 1px;
+		background: grey;
+		text-align: center;
+
+	}
+	.place{
+		width: 70;
+		margin-left: 1px;
+		
+		text-align: center;
+	}
+	.info{
+		width: 600px;
+		
+		margin-left: 1px;
+	}
+	.kypit{
+		width: 140px;
+		
+		margin-left: 1px;
+	}
+	.kartinka{
+		width: 90px;
+		background: greenyellow;
+		margin-left: 1px;
+	}
+	.img{
+		width: 90px;
+		height: 70px;
+	}
+	.logo{
+		width: 150px;
+		height: 40px;
+		
+	}
+	.subs{
+		width: 100px;
+		height: 27px;
+		border-radius: 5px;
+		background: purple;
+		margin-top: 10px;
+		border: none;
+	}
+	.chart{
+		text-decoration: none;
+
+	}
+	.h{
+		margin-bottom: 0px;
+	}
+	.up{
+		margin-top: 0px;
+		color: green;
+	}
+	.new{
+		margin-top: 0px;
+		color: orange;
+	}
+	.down{
+		margin-top: 0px;
+		color: red;
+	}
+	.bsort{
+		width: 80px;
+		height: 25px;
+		background: orange;
+		border: none;
+		border-radius: 3px;
+	}
+	.bsort2{
+		width: 80px;
+		height: 25px;
+		background: red;
+		border: none;
+		border-radius: 3px;
+		margin-left: 10px;
+	}
+	.bsort3{
+		width: 80px;
+		height: 25px;
+		background: green;
+		border: none;
+		border-radius: 3px;
+		margin-left: 10px;
+	}
+	.bsort4{
+		width: 80px;
+		height: 25px;
+		background: purple;
+		border: none;
+		border-radius: 3px;
+		margin-left: 10px;
+	}
+	.a1{
+		text-decoration: none;
+		margin-left: 40px;
+		color: white;
+		font-size: 20px;
+	}
+	.a2{
+		text-decoration: none;
+		margin-left: 40px;
+		color: red;
+		font-size: 20px;
+	}
+	.a3{
+		text-decoration: none;
+		margin-left: 40px;
+		color: orange;
+		font-size: 20px;
+	}
+	.h4info{
+		margin-bottom: 8px;
+		color: steelblue;
+	}
+	.h6info{
+		margin-top: 0px;
+		color: white;
+
+	}
+	.vospro{
+		border-radius: 4px;
+		margin-top: 10px;
+		background-color: red;
+		border: none;
+		height: 25px;
+		color: white;
+	}
+	.kup{
+		border-radius: 4px;
+		margin-top: 10px;
+		background-color: green;
+		border: none;
+		height: 25px;
+		color: white;
+		width: 97px;
+	}
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+
+			
+		
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img src="logo.png" class="logo">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a href="https://en-oge.sdamgia.ru/test?id=1234705" class="a1">charts</a>
+			<a href="https://en-oge.sdamgia.ru/test?id=1234705" class="a1">news</a>
+			<a href="https://en-oge.sdamgia.ru/test?id=1234705" class="a2">video</a>
+			<a href="https://en-oge.sdamgia.ru/test?id=1234705" class="a3">photos</a>
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button class="subs">subscribe</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-container">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="chart-sort">
+		<button class="bsort">this week</button>
+		<button class="bsort2">last week</button>
+		<button class="bsort3">peak</button>
+		<button class="bsort4">Duration</button>
+	</div>
+
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">1</h2>
+			<p class="up">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4  class="h4info">Savage Love (lexad- Siren Beat)</h4>
+			<h5 class="h6info">Jawes 685 x jason Derulo x BTS</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="vospro">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="1.jpg" class="img">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">2</h2>
+			<p class="new">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Dynamite</h4>
+			<h5 class="h6info">BTS</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="kup">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="2.jpg" class="img">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">3</h2>
+			<p class="new">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Wap</h4>
+			<h5 class="h6info">Cardi B</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="kup">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="3.jpg" class="img">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">4</h2>
+			<p class="up">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Mood</h4>
+			<h5 class="h6info">24kgoldn</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="kup">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="4.jpg" class="img">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">5</h2>
+			<p class="down">down</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Laugh Now Cry Later</h4>
+			<h5 class="h6info">Drake</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="kup">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="5.jpg" class="img">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">6</h2>
+			<p class="new">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Blinding Lights</h4>
+			<h5 class="h6info">The Weekend</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="vospro">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="6.jpg" class="img">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="place">
+			<h2 class="h">7</h2>
+			<p class="up">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="info">
+			<h4 class="h4info">Rockstar</h4>
+			<h5 class="h6info">DaBaby Featuring Roddy Ricch</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="kypit">
+			<button class="vospro">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="kartinka">
+			<img src="7.jpg" class="img">
+		</div>		
+	</div>
+</div>
+<!--  
+1.Savage Love (Laxed - Siren Beat)
+Jaws 685 x Jason Derulo x BTS
+
+2.Dynamite
+BTS
+
+3.WAP
+Cardi B featuring Megan Thee Stallion
+
+4.Mood
+24kGoldn featuring iann dior
+
+5.Laugh Now Cry Later
+Drake featuring Lil Durk
+
+6.Blinding Lights
+The Weekend
+
+7.Rockstar
+DaBaby Featuring Roddy Ricch
+-->
